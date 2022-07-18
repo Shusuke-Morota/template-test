@@ -1,0 +1,9 @@
+@forward 'mixin';
+@forward 'animation';
+
+.u-scroll-prevent {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}

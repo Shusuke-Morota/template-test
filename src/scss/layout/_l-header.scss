@@ -1,0 +1,7 @@
+@use '../global' as *;
+
+.l-header {
+  position: sticky;
+  top: 0;
+  background-color: $color-white;
+}

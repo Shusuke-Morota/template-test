@@ -1,0 +1,16 @@
+---
+title: トップページ
+description: ページ概要をここに
+root: '.'
+slug: 'top'
+---
+
+{% extends 'layout/_base.njk' %} {% block main -%}
+<section id="service" class="p-about">service</section>
+<section id="company" class="p-about">company</section>
+<section id="work" class="p-about">work</section>
+<section id="blog" class="p-about">blog</section>
+<section id="recruit" class="p-about">recruit</section>
+<section id="contact" class="p-about">contact</section>
+<img src="{{ root }}/img/orange.jpg" alt="" />
+{%- endblock %}

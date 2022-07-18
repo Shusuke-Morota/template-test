@@ -1,0 +1,7 @@
+{% if (site.env == 'development') %}
+<script type="module" src="http://localhost:3000/@vite/client"></script>
+<script type="module" src="http://localhost:3000/src/js/index.js"></script>
+{% elif (site.env == 'production') %}
+<script type="module" defer src="{{root}}/{{ manifest['src/js/index.js'].file }}"></script>
+{% endif %}
+{% block js -%}{%- endblock %}

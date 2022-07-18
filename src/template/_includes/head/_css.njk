@@ -1,0 +1,4 @@
+{% if (site.env == 'production') %}
+<link rel="stylesheet" href="{{ root }}/{{manifest['src/js/index.js'].css}}" />
+{% endif %}
+{% block css -%} {%- endblock %}
